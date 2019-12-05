@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="myTextColorAttr">@color/defaultTextColor</item>
+        <item name="mainBackgroundAttr">@color/defaultBackgroundColor</item>
+        <item name="buttonBackgroundAttr">@color/defaultBackgroundColor</item>
+
+<!--        for custom button style-->
+        <item name="customButtonBackgroundAttr">@color/buttonBackground</item>
+        <item name="customButtonClickedAttr">@color/buttonClick</item>
+    </style>
+
+    <!-- Dark application theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="myTextColorAttr">@color/nightTextColor</item>
+        <item name="mainBackgroundAttr">@color/nightBackgroundColor</item>
+        <item name="buttonBackgroundAttr">@color/nightButtonBackgroundColor</item>
+        <!--for custom button style-->
+        <item name="customButtonBackgroundAttr">@color/buttonBackgroundNight</item>
+        <item name="customButtonClickedAttr">@color/buttonClickNight</item>
+    </style>
+
+</resources>

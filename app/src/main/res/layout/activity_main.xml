@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/mainBackgroundAttr"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/support_toolbar"/>
+
+
+    <Button
+        android:text="Default Button"
+        android:background="?attr/buttonBackgroundAttr"
+        android:textColor="?attr/myTextColorAttr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="?attr/myTextColorAttr"
+        android:gravity="center"
+        android:text="Text View"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:text="CheckBox"
+        android:textColor="?attr/myTextColorAttr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:text="Radio Button"
+        android:textColor="?attr/myTextColorAttr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Custom Button"
+        android:textColor="#fff"
+        android:background="@drawable/custom_button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Activate Dark Mode"
+        android:background="?attr/buttonBackgroundAttr"
+        android:textColor="?attr/myTextColorAttr"
+        android:onClick="activateDarkMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Activate Default Mode"
+        android:textColor="?attr/myTextColorAttr"
+        android:background="?attr/buttonBackgroundAttr"
+        android:onClick="activateDefaultMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
